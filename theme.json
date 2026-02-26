@@ -1,0 +1,17 @@
+{
+  "name": "Fashion Neon",
+  "slug": "salla-theme-fashion-neon-2026",
+  "version": "1.0.0",
+  "author": "Nadir",
+  "description": "ستايل عصري جريء للأزياء",
+  "rtl": true,
+  "entry": "templates/home.html",
+  "assets": {
+    "css": [
+      "assets/css/style.css"
+    ],
+    "js": [
+      "assets/js/app.js"
+    ]
+  }
+}
