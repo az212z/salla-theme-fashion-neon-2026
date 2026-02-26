@@ -1,21 +1,76 @@
 {
-  "name": {
-    "ar": "ثيم Fashion Neon 2026",
-    "en": "Fashion Neon 2026 Theme"
-  },
-  "repository": "https://github.com/az212z/salla-theme-fashion-neon-2026",
-  "author_email": "alialamer1418asd@gmail.com",
-  "support_url": "https://github.com/az212z/salla-theme-fashion-neon-2026/issues",
-  "description": {
-    "ar": "ثيم احترافي لمتجر سلة: Fashion Neon 2026",
-    "en": "Professional Salla theme: Fashion Neon 2026"
-  },
-  "features": [
-    "fonts",
-    "color",
-    "filters",
-    "breadcrumb"
-  ],
-  "settings": [],
-  "components": []
+    "name": {
+        "ar": "ثيم Fashion Neon 2026",
+        "en": "Fashion Neon 2026 Theme"
+    },
+    "repository": "https://github.com/az212z/salla-theme-fashion-neon-2026",
+    "author_email": "alialamer1418asd@gmail.com",
+    "support_url": "https://github.com/az212z/salla-theme-fashion-neon-2026/issues",
+    "description": {
+        "ar": "ثيم احترافي لمتجر سلة: Fashion Neon 2026",
+        "en": "Professional Salla theme: Fashion Neon 2026"
+    },
+    "features": [
+        "fonts",
+        "color",
+        "filters",
+        "breadcrumb"
+    ],
+    "settings": [
+        {
+            "id": "hero_title",
+            "type": "static",
+            "format": "title",
+            "label": "Title",
+            "value": "ستايلك يبدأ من هنا ✨",
+            "variant": "h1",
+            "icon": "sicon-format-text"
+        },
+        {
+            "id": "hero_description",
+            "type": "static",
+            "format": "description",
+            "label": "Description",
+            "value": "أحدث صيحات الموضة بتصميم جريء وعروض يومية. شحن سريع ودفع آمن",
+            "variant": "h1",
+            "icon": "sicon-format-size"
+        },
+        {
+            "id": "hero_line",
+            "type": "static",
+            "format": "line",
+            "label": "Line",
+            "icon": "sicon-minus"
+        },
+        {
+            "id": "url",
+            "type": "string",
+            "format": "url",
+            "inputType": "url",
+            "label": "URL",
+            "description": null,
+            "labelHTML": "/collections/all",
+            "placeholder": "e.g. https://salla.sa",
+            "icon": "sicon-link",
+            "value": "/collections/all",
+            "required": false,
+            "minLength": 6,
+            "maxLength": 30
+        },
+        {
+            "id": "collection",
+            "type": "collection",
+            "format": "collection",
+            "label": "Collection",
+            "description": null,
+            "labelHTML": null,
+            "item_label": null,
+            "icon": "sicon-list-add",
+            "fields": [],
+            "value": [],
+            "minLength": 1,
+            "maxLength": 5
+        }
+    ],
+    "components": []
 }
