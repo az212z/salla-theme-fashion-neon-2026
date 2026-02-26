@@ -1,9 +1,9 @@
 {
-  "name": "Fashion Neon",
-  "slug": "salla-theme-fashion-neon-2026",
-  "version": "1.0.0",
+  "name": "Fashion Neon 2026",
+  "slug": "fashion-neon-2026",
+  "version": "1.0.1",
   "author": "Nadir",
-  "description": "ستايل عصري جريء للأزياء",
+  "description": "Professional Salla theme: Fashion Neon 2026",
   "rtl": true,
   "entry": "templates/home.html",
   "assets": {

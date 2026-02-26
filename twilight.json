@@ -1,13 +1,14 @@
 {
   "name": {
-    "ar": "Fashion Neon",
-    "en": "Fashion Neon"
+    "ar": "ثيم Fashion Neon 2026",
+    "en": "Fashion Neon 2026 Theme"
   },
   "repository": "https://github.com/az212z/salla-theme-fashion-neon-2026",
   "author_email": "alialamer1418asd@gmail.com",
+  "support_url": "https://github.com/az212z/salla-theme-fashion-neon-2026/issues",
   "description": {
-    "ar": "ستايل عصري جريء للأزياء",
-    "en": "ستايل عصري جريء للأزياء"
+    "ar": "ثيم احترافي لمتجر سلة: Fashion Neon 2026",
+    "en": "Professional Salla theme: Fashion Neon 2026"
   },
   "features": [
     "fonts",
